@@ -1,0 +1,37 @@
+[project]
+name = "iadata700-streamlit"
+version = "0.1.0"
+description = "Projet Streamlit pour le cours IADATA700"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=3.0.5",
+    "pydeck>=0.9.3",
+    "streamlit>=1.63.0",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=2.3.1",
+    "pre-commit>=4.6.2",
+    "pytest>=9.1.1",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.16.7",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py314"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+addopts = "--cov=. --cov-report=term-missing"
+testpaths = ["tests"]
+
+[tool.mypy]
+python_version = "3.14"
+ignore_missing_imports = true
+warn_unused_configs = true
+check_untyped_defs = true
