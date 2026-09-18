@@ -46,7 +46,7 @@ Vous devez identifier une question/un thème qui définit le fil principal de vo
 
 Cette partie pourra se faire conjointement avec les séances de Charlotte.
 
-> [!NOTE]
+> [!TIP]
 >Dans un premier temps, on part par exemple avec le retard moyen au départ de Paris, selon la destination.
 
 ### 4. Au charbon !
@@ -73,13 +73,11 @@ Pour cela, vous pouvez déployer votre application sur Streamlit Cloud, AWS, Azu
 
 Le repository Git devant être public sur GitHub pour le rayonnement de l'entreprise (et le vôtre !), un minimum de qualité est attendu.
 
->[!NOTE]
+>[!TIP]
 > Liste de nos repos :
-> Ulysse : [text](https://github.com/ulyssepm/IADATA700_Streamlit)
+> Ulysse : [repo](https://github.com/ulyssepm/IADATA700_Streamlit)
 > Pierre : 
 > Christophe : 
->
-> 
 
 
 ### La gestion du projet
@@ -88,10 +86,10 @@ Le repository Git devant être public sur GitHub pour le rayonnement de l'entrep
 
 https://github.com/ulyssepm/IADATA700_Streamlit
 - **Environnement Python** : utilisez un gestionnaire d'environnement Python ou Poetry pour gérer les dépendances de votre projet. Choisissez bien votre version de Python. Assurez-vous d'avoir un fichier `requirements.txt` ou `pyproject.toml` correctement configuré.
->[!NOTE]
+>[!TIP]
 > Je propose pyproject.toml
 - **Git** : initialisez un dépôt Git pour votre projet et suivez les meilleures pratiques de gestion de code avec des commits (assurez-vous de committer régulièrement), et dans la mesure du possible, des branches et des Pull Requests pour travailler en équipe. Assurez-vous d'inclure un fichier `README.md` qui explique comment installer, exécuter, déployer et utiliser votre application.
->[!NOTE]
+>[!TIP]
 > Exemple de README.md (généré) dans mon repo, qui explique les commandes pour init, installer, lancer l'app, etc.
 - **Optionnel** : créez éventuellement des tags de version pour marquer les versions stables de votre application.
 - **Streamlit** : développez votre webapp avec une expérience utilisateur (UX) simple et intuitive, en laissant à l'utilisateur la possibilité d'interagir avec vos données pour bien comprendre le storytelling que vous lui racontez. Ce storytelling doit comporter des insights au travers de graphiques (charts, cartes, etc.) et doit répondre à votre problématique / question initiale.
