@@ -1,0 +1,8 @@
+1) regarder les données et sélectionner pertinentes d'après le rojet,
+2) dire commejt les afficher (graphes)
+3) methode TDD : def tests, puiis dev autour
+
+faire comme si c'était présenté à un tech SNCF ?
+pour chaque ligne, donner des data différentes ...
+
+réflcéhghir déjà à struture projet
