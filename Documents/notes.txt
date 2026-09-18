@@ -5,4 +5,14 @@
 faire comme si c'était présenté à un tech SNCF ?
 pour chaque ligne, donner des data différentes ...
 
-réflcéhghir déjà à struture projet
+réfléchir déjà à struture projet
+
+______________________________________________________________________________
+
+############ DONNEES ###############
+
+Se calquer sur l'analyse de la SNCF : https://ressources.data.sncf.com/explore/dataset/regularite-mensuelle-tgv-aqst/analyze/?dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJzcGxpbmUiLCJmdW5jIjoiTUlOIiwieUF4aXMiOiJuYl9hbm51bGF0aW9uIiwic2NpZW50aWZpY0Rpc3BsYXkiOnRydWUsImNvbG9yIjoicmFuZ2UtRGFyazIifV0sInhBeGlzIjoiZGF0ZSIsIm1heHBvaW50cyI6IiIsInRpbWVzY2FsZSI6Im1vbnRoIiwic29ydCI6IiIsInNlcmllc0JyZWFrZG93biI6ImdhcmVfZGVwYXJ0IiwiY29uZmlnIjp7ImRhdGFzZXQiOiJyZWd1bGFyaXRlLW1lbnN1ZWxsZS10Z3YtYXFzdCIsIm9wdGlvbnMiOnt9fX1dLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlLCJ0aW1lc2NhbGUiOiIifQ%3D%3D
+
+
+####################
+Avoir un environnement
