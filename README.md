@@ -1,6 +1,7 @@
 # IADATA700 Streamlit
 
 Projet Python géré avec `uv`, avec une application Streamlit et un socle CI/CD.
+Pour d'autres bonnes pratiques MLOps, suivre https://github.com/fmind/mlops-python-package
 
 ## Installation
 

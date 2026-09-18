@@ -3,8 +3,10 @@ Démo Streamlit — Affichage cartographique avec pydeck (fond OpenStreetMap)
 ============================================================================
 
 Pour lancer l'application :
-    pip install -r requirements.txt
-    streamlit run app.py
+    #pip install -r requirements.txt
+    uv sync (lance le sync des dépendances)
+    cd ./
+    streamlit run .\streamlit\streamlit_app.py
 
 Le fichier `donnees.csv` doit contenir au minimum deux colonnes :
     latitude, longitude
@@ -52,7 +54,7 @@ def load_data(source) -> pd.DataFrame:
 if file_uploader is not None:
     df = load_data(file_uploader)
 else:
-    df = load_data("streamlit/donnees.csv")
+    df = load_data("streamlit_example/donnees.csv")
     st.sidebar.info("Aucun fichier chargé : utilisation de `donnees.csv` (exemple).")
 
 st.sidebar.write(f"**{len(df)}** points chargés")

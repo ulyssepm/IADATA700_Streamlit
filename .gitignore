@@ -16,3 +16,4 @@ build/
 .streamlit/secrets.toml
 .DS_Store
 Thumbs.db
+streamlit/_avast_
