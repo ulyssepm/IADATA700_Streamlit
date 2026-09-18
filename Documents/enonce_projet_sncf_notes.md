@@ -75,8 +75,11 @@ Le repository Git devant être public sur GitHub pour le rayonnement de l'entrep
 
 >[!TIP]
 > Liste de nos repos :
+>
 > Ulysse : [repo](https://github.com/ulyssepm/IADATA700_Streamlit)
-> Pierre : 
+>
+> Pierre :
+>
 > Christophe : 
 
 
@@ -87,7 +90,13 @@ Le repository Git devant être public sur GitHub pour le rayonnement de l'entrep
 https://github.com/ulyssepm/IADATA700_Streamlit
 - **Environnement Python** : utilisez un gestionnaire d'environnement Python ou Poetry pour gérer les dépendances de votre projet. Choisissez bien votre version de Python. Assurez-vous d'avoir un fichier `requirements.txt` ou `pyproject.toml` correctement configuré.
 >[!TIP]
-> Je propose pyproject.toml
+> Je propose d'utiliser uv plutôt que Poetry, pour les raisons suivantes : [Poetry, UV et MLOps](https://www.fmind.dev/articles/poetry-was-good-uv-is-better-an-mlops-migration-story/)
+> Dans les dépendances, j'ai les suivantes (pour l'instant:     "pandas>=3.0.5",
+>    "pydeck>=0.9.3",
+>    "streamlit>=1.63.0",
+>    "seaborn",
+>    "matplotlib-inline",
+>    "ipykernel"
 - **Git** : initialisez un dépôt Git pour votre projet et suivez les meilleures pratiques de gestion de code avec des commits (assurez-vous de committer régulièrement), et dans la mesure du possible, des branches et des Pull Requests pour travailler en équipe. Assurez-vous d'inclure un fichier `README.md` qui explique comment installer, exécuter, déployer et utiliser votre application.
 >[!TIP]
 > Exemple de README.md (généré) dans mon repo, qui explique les commandes pour init, installer, lancer l'app, etc.
