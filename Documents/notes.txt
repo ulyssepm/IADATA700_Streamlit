@@ -1,3 +1,11 @@
+###### Commandes Git #######
+- si sur une même branche, le repo et local ont des états différents, que je veux pull sans overwrite mon local :
+    git stash -> garde en mémoire mes changements
+    git pull -> pull du remote et écrase mon local
+    git stash pop -> merge du stash avec le pullg
+
+
+
 1) regarder les données et sélectionner pertinentes d'après le rojet,
 2) dire commejt les afficher (graphes)
 3) methode TDD : def tests, puiis dev autour
