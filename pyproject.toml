@@ -12,16 +12,18 @@ dependencies = [
     "streamlit>=1.63.0",
     "seaborn>=0.13.2",
     "matplotlib-inline",
-    "ipykernel"
+    "ipykernel",
+    "sphinx"
 ]
 
 [dependency-groups]
 dev = [
+    "colorama>=0.4.6",
     "mypy>=2.3.1",
     "pre-commit>=4.6.2",
     "pytest>=9.1.1",
     "pytest-cov>=7.1.0",
-    "ruff>=0.16.7"
+    "ruff>=0.16.7",
 ]
 
 [tool.ruff]

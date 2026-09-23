@@ -12,19 +12,22 @@ Le fichier `regularite-mensuelle-tgv-aqst.csv` doit contenir au minimum colonnes
 
 """
 
-import pandas as pd
-import pydeck as pdk
+import logging
+
 import streamlit as st
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
 from affichage_donnee import graphes as ui
-from front_end import boutons as bt
 from front_end import sections as sc
+from utils.logger import init_logger
+
+init_logger()
+
+logger = logging.getLogger(__name__)
+logger.info("Application Streamlit démarrée")
 
 # --------------------------------------------------------------------------
 # Configuration générale de la page
 # --------------------------------------------------------------------------
+
 st.set_page_config(
     page_title="Démo - Retard moyen des trains d'une ville de départ",
     page_icon="🚄",

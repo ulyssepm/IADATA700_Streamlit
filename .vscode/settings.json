@@ -1,2 +1,15 @@
+// Pour éviter les doublons de diagnostics (Pylance et Ruff)
+
 {
+  "python.languageServer": "Pylance",
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    }
+  },
+  "python.analysis.diagnosticMode": "workspace",
+  "ruff.lint.enable": true
 }
