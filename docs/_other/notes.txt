@@ -1,10 +1,17 @@
-###### Commandes Git #######
+###### Commandes #######
+    ## Git ##
 - si sur une même branche, le repo et local ont des états différents, que je veux pull sans overwrite mon local :
-    git stash -> garde en mémoire mes changements
-    git pull -> pull du remote et écrase mon local
-    git stash pop -> merge du stash avec le pullg
+    git stash           -> garde en mémoire mes changements
+    git pull            -> pull du remote et écrase mon local
+    git stash pop        -> merge du stash avec le pullg
 
+    ## Streamlit ##
+    uv sync
+    uv run streamlit run .\streamlit_SNCF\streamlit_app.py
 
+    # Other #
+    pip install pipreqs
+    pipreqs /path/to/project       Créer requirements.txt
 
 1) regarder les données et sélectionner pertinentes d'après le rojet,
 2) dire commejt les afficher (graphes)
@@ -23,4 +30,5 @@ Se calquer sur l'analyse de la SNCF : https://ressources.data.sncf.com/explore/d
 
 
 ####################
-Avoir un environnement
+Avoir un environnement:
+    venv

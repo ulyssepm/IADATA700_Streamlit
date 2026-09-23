@@ -1,3 +1,5 @@
+# Script de setup pour packaging et distribution
+
 [project]
 name = "iadata700-streamlit"
 version = "0.1.0"
@@ -8,7 +10,7 @@ dependencies = [
     "pandas>=3.0.5",
     "pydeck>=0.9.3",
     "streamlit>=1.63.0",
-    "seaborn",
+    "seaborn>=0.13.2",
     "matplotlib-inline",
     "ipykernel"
 ]
@@ -19,8 +21,7 @@ dev = [
     "pre-commit>=4.6.2",
     "pytest>=9.1.1",
     "pytest-cov>=7.1.0",
-    "ruff>=0.16.7",
-    "pylint"
+    "ruff>=0.16.7"
 ]
 
 [tool.ruff]

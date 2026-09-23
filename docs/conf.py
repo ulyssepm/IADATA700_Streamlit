@@ -1,0 +1,2 @@
+"""Configuration pour Sphynx
+"""
