@@ -31,7 +31,26 @@ La page `api` est ajoutée au `toctree` afin de l'intégrer à la documentation.
 ## `api.rst`
 
 Cette page utilise les directives `automodule` et `:members:` pour documenter
-les fonctions de `boutons.py` et `graphes.py`.
+les fonctions
+
+L'ajout des fonctions dans l'api.rst se fait de la manière suivante :
+Titre
+=====
+    #^ l'underline doit matcher la longueur du titre
+Sous-titre
+----------
+        #^ l'underline doit matcher la longueur du titre
+Sections
+~~~~~~~~
+       #^ l'underline doit matcher la longueur du titre
+
+.. automodule:: nom_package_projet.module.sous-module
+   :members:
 
 Sphinx lit ainsi sa configuration dans `docs`, importe le code depuis `src`,
 puis génère les pages HTML dans `docs/_build/html`.
+
+>[!NOTE] il faut ajouter manuellement les nouveeaux modules
+
+## Lancer la doc génération
+.\docs\make.bat html
