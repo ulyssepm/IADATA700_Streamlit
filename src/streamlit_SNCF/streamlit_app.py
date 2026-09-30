@@ -15,7 +15,8 @@ Le fichier `regularite-mensuelle-tgv-aqst.csv` doit contenir au minimum colonnes
 import logging
 
 import streamlit as st
-from affichage_donnee import graphes as ui
+from back_end import load_data as ld
+from front_end import graphes as ui
 from front_end import sections as sc
 from utils.logger import init_logger
 
@@ -43,11 +44,11 @@ st.caption(
 # 1. Chargement des données
 # --------------------------------------------------------------------------
 
-df = sc.affichageSidebar()
+df = sc.affichage_sidebar(ld.file_upload())
 
 # --------------------------------------------------------------------------
 # 2. Affichage données
 # --------------------------------------------------------------------------
 
-ui.listeRetardsMoyensFrance(df)
-ui.histRetardVilleDepart(df)
+ui.liste_retards_moyens_france(df)
+ui.hist_retard_ville_depart(df)
