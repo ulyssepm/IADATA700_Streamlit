@@ -26,7 +26,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install uv
           uv sync
-      
+            - name: Lint
+        run: uv run ruff check .
+
+      - name: Format check
+        run: uv run ruff format --check .
+
+      - name: Type check
+        run: uv run mypy .
+        
       - name: Lancer les tests
         run: .venv/bin/py.test
     
